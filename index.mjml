@@ -1,11 +1,28 @@
 <mjml>
-  <mj-body>
-    <mj-section background-color="yellow">
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .header {
+        background-color: #004c3f;
+      }
+
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-section css-class="header section-padding">
       <mj-column>
-        <mj-text>Left text</mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text>Right text</mj-text>
+        <mj-image alt="logo" href="https://www.example.com" width="121px" align="left" src="http://127.0.0.1:5500/img/logo.png" />
       </mj-column>
     </mj-section>
   </mj-body>
