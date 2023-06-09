@@ -1,0 +1,12 @@
+<mjml>
+  <mj-body>
+    <mj-section background-color="yellow">
+      <mj-column>
+        <mj-text>Left text</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>Right text</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
