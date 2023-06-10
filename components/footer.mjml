@@ -1,7 +1,7 @@
 <mj-raw>
   <!-- Footer -->
 </mj-raw>
-<mj-wrapper css-class="footer" padding="0 40px">
+<mj-wrapper css-class="footer" padding="0">
   <mj-section padding="0">
     <mj-group css-class="icons-size">
       <mj-column padding="0">
