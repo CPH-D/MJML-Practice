@@ -1,8 +1,48 @@
 <mj-raw>
   <!-- Footer -->
 </mj-raw>
-<mj-section css-class="header section-padding">
-  <mj-column>
-    <mj-text>Footer</mj-text>
-  </mj-column>
-</mj-section>
+<mj-wrapper css-class="footer" padding="0 40px">
+  <mj-section padding="0">
+    <mj-group css-class="icons-size">
+      <mj-column padding="0">
+        <mj-image padding="0 5px" href="https://www.example.com" src="http://127.0.0.1:5500/img/fb.png" width="27px" height="27px" alt="Facebook" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image padding="0 5px" href="https://www.example.com" src="http://127.0.0.1:5500/img/tw.png" width="27px" height="27px" alt="Twitter" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image padding="0 5px" href="https://www.example.com" src="http://127.0.0.1:5500/img/insta.png" width="27px" height="27px" alt="Instagram" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image padding="0 5px" href="https://www.example.com" src="http://127.0.0.1:5500/img/snap.png" width="27px" height="27px" alt="Snapchat" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image padding="0 5px" href="https://www.example.com" src="http://127.0.0.1:5500/img/in.png" width="27px" height="27px" alt="Linkedin" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image padding="0 5px" href="https://www.example.com" src="http://127.0.0.1:5500/img/pin.png" width="27px" height="27px" alt="Pinterest" />
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image padding="0 5px" href="https://www.example.com" src="http://127.0.0.1:5500/img/yt.png" width="27px" height="27px" alt="YouTube" />
+      </mj-column>
+    </mj-group>
+  </mj-section>
+
+  <mj-section padding="20px 0 0">
+    <mj-column padding="0">
+      <mj-text font-size="10px" align="center">
+        &copy; Shopify, 151 0'Connor Street, Ground floor, Ottawa ON, K2P 2L8
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="0 0 60px">
+    <mj-column padding="0">
+      <mj-text font-size="10px" align="center">
+        <a href="https://www.example.com" class="footer-links">
+          Unsubscribe</a> |
+        <a href="https://www.example.com" class="footer-links">
+          Manage Your Email Preferances</a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>
